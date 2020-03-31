@@ -1,2 +1,2 @@
-# dataitgits-website
-DataItGirls's web site
+# datadesigner-website
+Data Designer's web site
