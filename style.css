@@ -1,0 +1,115 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body {
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    font-family: "Noto Sans KR", sans-serif !important;
+    background-color: #FFFFFF;
+}
+
+header {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: black;
+}
+header div {
+    width: 100%;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: small;
+    color: white;
+    background-color: darkslateblue;
+    line-height: normal;
+}
+
+@media screen and (min-width: 240px) and (max-width: 950px) {
+    nav {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgba(83, 77, 178, 0.95);
+        color: white;
+    }
+
+    nav div {
+        padding: 10px;
+    }
+    nav .links {
+        /* width: 100%; */
+        text-align: center;
+    }
+
+    nav .links a {
+        color: white;
+        text-decoration: none;
+        font-weight: lighter;
+        padding-left: 3px;
+    }
+}
+
+@media (min-width: 950px) {
+    nav {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgba(83, 77, 178, 0.95);
+        color: white;
+        display: flex;
+    }
+
+    nav div {
+        padding: 20px;
+    }
+    nav .links {
+        width: 100%;
+        text-align: right;
+    }
+
+    nav .links a {
+        color: white;
+        text-decoration: none;
+        font-weight: lighter;
+        padding-left: 15px;
+    }
+}
+
+nav img {
+    width: 100%;
+    max-width: 100px;
+}
+
+nav .selected {
+    font-weight: bolder !important;
+    border-bottom: 2px solid #fe5b1b !important;
+}
+
+section {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    line-height: 0;
+}
+
+section article {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    line-height: 0;
+}
+img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
